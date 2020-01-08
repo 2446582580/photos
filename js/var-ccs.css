@@ -1,0 +1,31 @@
+:root{
+    --v: 0.40;
+}
+.f50{
+    font-size: calc(0.5rem*var(--v));
+}
+.f36{
+    font-size: calc(0.36rem*var(--v));
+}
+
+.f32{
+    font-size: calc(0.32rem*var(--v));
+}
+.f30{
+    font-size: calc(0.30rem*var(--v));
+}
+
+.f28{
+    font-size: calc(0.28rem*var(--v));
+}
+
+.f26{
+    font-size: calc(0.26rem*var(--v));
+}
+
+.f22{
+    font-size: calc(0.22rem*var(--v));
+}
+.f20{
+    font-size: calc(0.20rem*var(--v));
+}

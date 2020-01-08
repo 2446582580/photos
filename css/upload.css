@@ -1,0 +1,45 @@
+form > div{
+    display: flex;
+    line-height: 36px;
+    padding-bottom: 25px;
+    color: #333;
+}
+form > div > span{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 18px;
+    color: #555;
+    flex: none;
+}
+form label{
+    display: flex;
+}
+
+form > div span,
+form > div  input,
+form > div textarea {
+    width: 320px;
+}
+
+
+form > div textarea,
+form > div input {
+    border: 1px solid #5ABCFC;
+    padding: 0 6px;
+    font-size: 17px;
+    color: #333;
+    border-radius: 5px;
+}
+
+form > div textarea:hover,
+form > div input:hover{
+    box-shadow: 0 0 5px 0 #5ABCFC;
+}
+form .intro{
+    padding-bottom: 0;
+}
+form .intro textarea{
+    padding: 4px 6px;
+    font-size: 16px;
+    height: 100px;
+}
